@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业</title>
+</head>
+<body>
+<form>
+    <table align="center">
+	<tr>
+            <td>名字：</td>
+            <td><input type="text"/></td>
+        </tr>
+		<tr>
+            <td>姓氏：</td>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td>登录名：</td>
+            <td><input type="text"/></td>
+            <td>(可包含a-z、0-9和下划线)</td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input type="password"/></td>
+            <td>(至少包含六个字符)</td>
+        </tr>
+        <tr>
+            <td>请再次输入密码：</td>
+            <td colspan="2"><input type="password"/></td>
+        </tr>
+        <tr>
+            <td>性别：</td>
+            <td><input type="radio" name="sex" value="1" checked>男</td>
+            <td><input type="radio" name="sex" value="2" >女</td>
+        </tr>
+        <tr>
+            <td>爱好：</td>
+            <td><input type="checkbox" name="interest" value="1">运动</td>
+            <td><input type="checkbox" name="interest" value="2">聊天</td>
+            <td><input type="checkbox" name="interest" value="3">玩游戏</td>
+        </tr>
+        <tr>
+            <td>出生日期</td>
+            <td><input type="text">年</td>
+            <select name="月" align="center">
+                <option value="一月">一月</option>
+                <option value="二月">二月</option>
+                <option value="三月">三月</option>
+                <option value="四月">四月</option>
+                <option value="五月">五月</option>
+                <option value="六月">六月</option>
+                <option value="七月">七月</option>
+                <option value="八月">八月</option>
+                <option value="九月">九月</option>
+                <option value="十月">十月</option>
+                <option value="十一月">十一月</option>
+                <option value="十二月">十二月</option>
+            </select>
+            <td><input type="text">日</td>
+        </tr> <tr>
+            <td><input type="reset" value="重填"></td>
+            <td colspan="2"><input type="submit" name="sub" value="同意以下服务条款，提交注册"></td>
+    </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+
+    </table>
+</form>
+</body>
+</html>
