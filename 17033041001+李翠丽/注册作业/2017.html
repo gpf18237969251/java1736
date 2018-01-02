@@ -1,0 +1,96 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业</title>
+</head>
+<style type="text/css">
+    label{
+        float: right;
+    }
+</style>
+<body>
+<form action="2017.html">
+    <table cellpadding="4" align="center">
+        <tr>
+            <td><label>名字：</label></td>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td><label>姓氏：</label></td>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td><label>登录名：</label></td>
+            <td><input type="text"/></td>
+            <td>(可包含a-z、0-9和下划线)</td>
+        </tr>
+        <tr>
+            <td><label>密码：</label></td>
+            <td><input type="password"/></td>
+            <td>(至少包含六个字符)</td>
+        </tr>
+        <tr>
+            <td><label>请再次输入密码：</label></td>
+            <td colspan="2"><input type="password"/></td>
+        </tr>
+        <tr>
+            <td><label>邮箱</label></td>
+            <td><input type="text"/></td>
+            <td>(必须包含@字符)</td>
+        </tr>
+        <tr>
+            <td>
+                <label>头像：</label>
+            </td>
+            <td colspan="2">
+                <input type="file" />
+            </td>
+        </tr>
+        <tr>
+            <td><label>性别：</label></td>
+            <td colspan="2"><input type="radio" name="sex" value="1" checked>
+            <img src="Male.gif" height="21" width="23"/>男
+            <input type="radio" name="sex" value="2" >
+            <img src="Female.gif" height="21" width="23"/>女</td>
+        </tr>
+        <tr>
+            <td><label>爱好：</label></td>
+            <td colspan="2"><input type="checkbox" name="interest" value="1">运动
+            <input type="checkbox" name="interest" value="2">聊天
+            <input type="checkbox" name="interest" value="3">玩游戏</td>
+        </tr>
+        <tr>
+            <td><label>出生日期：</label></td>
+            <td colspan="2"><input type="text" value="yyyy"/> &nbsp;年&nbsp;
+            <select>
+                <option >请选择月份</option>
+                <option >一月</option>
+                <option >二月</option>
+                <option>三月</option>
+                <option>四月</option>
+                <option>五月</option>
+                <option>六月</option>
+                <option>七月</option>
+                <option>八月</option>
+                <option>九月</option>
+                <option>十月</option>
+                <option>十一月</option>
+                <option>十二月</option>
+            </select>&nbsp;月&nbsp;
+            <input type="text" value="dd"/>&nbsp;日&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><input type="image"src="reset.gif"></td>
+            <td><input type="image" src="submit.gif"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="hidden" value="label"/>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
