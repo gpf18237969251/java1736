@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 申请表</title>
+</head>
+<style>
+#main{
+    border: 2px solid #000000;
+    width: 360px;
+    height: 520px;
+    margin: 0px auto;
+    line-height: 1px;
+}
+    #xinxi{
+        border: 2px solid #b495ff;
+        width: 256px;
+        height: 100px;
+        line-height: 20px;
+    }
+    .result{
+        border-radius: 10px;
+        background-color: #D3D3D3;
+    }
+</style>
+<body>
+<div id="main">
+    <form>
+<p>申请表</p>
+    <p>姓名：<input type="text"></p>
+        <p>密码：<input type="password"/></p>
+        <p>照片：<input type="file"></p>
+        <p>感兴趣的职位：</p>
+        <p>
+            <input type="radio" name="select" value="1" checked>Web设计
+            <input type="radio" name="select" value="2">Web开发</p>
+        <p>向往城市:
+        <select>
+            <option>请选择城市：</option>
+            <option>河南</option>
+            <option>上海</option>
+            <option>北京</option>
+        </select></p>
+        <p>协议：</p>
+        <div id="xinxi">
+        <p>求职信息必须真实、准确，本网站只负责
+        向企业推荐。</p>
+        </div>
+        <p><input type="checkbox">我认真阅读并接受以上协议。</p>
+        <p>经验：</p>
+        <select>
+            <option>无经验</option>
+            <option>两年</option>
+            <option>一年</option>
+            <option>半年</option>
+        </select>
+        <p>
+            <input type="submit" class="result" value="提交">
+            <input type="reset" class="result" value="重置">
+        </p>
+</form>
+</div>
+</body>
+</html>
