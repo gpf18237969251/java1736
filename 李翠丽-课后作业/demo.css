@@ -1,0 +1,23 @@
+#one{
+    font-size: 25px;
+    margin: 0px auto;
+}
+#two{
+    font-size: 25px;
+    margin: 0px auto;
+}
+.result{
+     width: 145px;
+    height: 35px;
+    background-color: aqua;
+    font-size: 24px;
+    font-family: "微软雅黑 Light";
+    border-radius: 10px;
+}
+div{
+    border: 2px solid #FFF8DC;
+    background-color: #FFEBCD;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
