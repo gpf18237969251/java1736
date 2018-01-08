@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>啦啦啦</title>
+    <style type="text/css">
+        .t1
+        {
+         color: #ff3f27;
+            float: right;
+
+        }
+        .t2{
+            border: 2px red solid;
+        }
+        .t3{
+            border: 3px orange dashed;
+        }
+        .t4{
+            border: 4px yellow dotted;
+        }
+        .a1{
+            border: 3px  green double;
+        }
+     .a2{
+         border:3px blue dashed;
+     }
+        .a3{
+            border: 4px blueviolet dotted;
+        }
+    </style>
+</head>
+<body>
+<table cellpadding="3" align="center">
+    <tr>
+        <td class="t1">姓名：</td>
+        <td><input type="text" class="t2"/></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="t1">姓氏：</td>
+        <td><input type="text" class="t3"/></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="t1">登录名：</td>
+        <td><input type="text" class="t4"/></td>
+        <td>（可包含a-z 0-9和下划线）</td>
+    </tr>
+    <tr>
+        <td class="t1">密码：</td>
+        <td><input type="password" class="a1"/></td>
+        <td>（至少包含6个字符）</td>
+    </tr>
+    <tr>
+        <td class="t1">再次输入密码：</td>
+        <td><input type="password" class="a2"/></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="t1">电子邮箱：</td>
+        <td><input type="text" class="a3"/></td>
+        <td>（必须包含@字符）</td>
+    </tr>
+    <tr>
+        <td class="t1">性别：</td>
+        <td><input type="radio" name="性别"/><img src="Male.gif" height="21" width="23"/>男
+        &nbsp;<input type="radio" name="性别"/><img src="Female.gif" height="21" width="23"/>女</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="t1">爱好：</td>
+        <td colspan="2"><input type="checkbox" name="爱好"/>运动 &nbsp;
+            <input type="checkbox" name="爱好"/>聊天 &nbsp;
+            <input type="checkbox" name="爱好"/>玩游戏 </td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="t1">出生日期：</td>
+       <td> <input type="text" value="yyyy"/>年 &nbsp;
+            <select>
+                <option>请选择月份</option>
+                <option>一月</option>
+                <option>二月</option>
+                <option>三月</option>
+                <option>四月</option>
+                <option>五月</option>
+                <option>六月</option>
+                <option>七月</option>
+                <option>八月</option>
+                <option>九月</option>
+                <option>十月</option>
+                <option>十一月</option>
+                <option>十二月</option>
+            </select>
+       </td>
+           <td><input type="text" value="dd"/>日</td>
+
+    </tr>
+    <tr>
+        <td colspan="3"><center><img src="reset.gif">&nbsp;&nbsp;&nbsp;<img src="submit.gif"> </center>></td>
+    </tr>
+
+</table>
+</body>
+</html>
