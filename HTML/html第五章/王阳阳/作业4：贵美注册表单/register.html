@@ -1,0 +1,74 @@
+<!DOCTYPE	html PUBLIC	"-//W3C//DTD XHTML 1.1 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html	xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=gb2312"	/>
+<title>贵美商城注册</title>
+</head>
+<body>
+	<form method="post" action="register_success.htm">
+    <table>
+      <tbody>
+      <tr>
+      	<td colspan="3">&nbsp;</td>
+        <td rowspan="11">
+    			<h4><img src="images/read.gif" alt="alt" />阅读贵美网服务协议</h4>
+          <textarea name="textarea" cols="30" rows="15" readonly="readonly">欢迎阅读服务条款协议……</textarea>
+    	  </td>      	
+      </tr>
+      <tr>
+        <td>登录名：</td>
+        <td><input name="sname" type="text" size="24" />（可包含 a-z、0-9 和下划线）</td>
+      </tr>
+      <tr>
+        <td>密码：</td>
+        <td><input name="pass" type="password" size="26" />（至少包含6个字符）</td>
+      </tr>
+      <tr>
+        <td>再次输入密码：</td>
+        <td><input name="rpass" type="password" size="26" /></td>
+      </tr>
+      <tr>
+        <td>电子邮箱：</td>
+        <td><input name="email" type="text" size="24" />（必须包含@字符）</td>
+      </tr>
+      <tr>
+        <td>性别：</td>
+        <td>
+    		  <input name="gen" type="radio" value="男" checked="checked" /><img src="images/Male.gif" alt="alt" />男&nbsp; 
+    	    <input name="gen" type="radio" value="女" /><img src="images/Female.gif" alt="alt" />女
+        </td>
+      </tr>
+      <tr>
+        <td>头像：</td>
+        <td><input type="file" name="upfiles" /></td>
+      </tr>    
+      <tr>
+        <td>爱好：</td>
+        <td>
+    	    <input type="checkbox" name="checkbox" value="checkbox" />运动&nbsp;&nbsp;    	  
+    	    <input type="checkbox" name="checkbox2" value="checkbox" />聊天&nbsp;&nbsp;    	  
+    		  <input type="checkbox" name="checkbox3" value="checkbox" />玩游戏
+    	  </td>
+      </tr>
+      <tr>
+        <td>喜欢的城市：</td>
+        <td>
+    		   <select name="nMonth">
+    			   <option value="" selected="selected">[请选择]</option>
+    		     <option value="0">北京</option>
+    		     <option value="1">上海</option>
+    		  </select>
+    	  </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>
+        <input type="hidden" name="from" value="regForm" />
+    		<input type="submit" name="Button" value="同意右侧服务条款，提交注册信息" disabled="true" /> <input type="reset" name="Reset" value=" 重   填 " />
+    	  </td>
+      </tr>
+      </tbody>
+    </table>	
+    </form>	
+  </body>
+</html>
