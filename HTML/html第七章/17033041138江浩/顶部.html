@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航栏</title>
+    <style type="text/css">
+        #tit{
+            width: 1024px;
+            height: 130px;
+            border: solid bisque;
+            margin: 20px ;
+            background-image: url("images/h_bg.jpg");
+            background-repeat: no-repeat;
+        }
+        .all{
+            width: 1900px;
+            height: 1000px;
+            border: solid bisque;
+        }
+        #tit1,#tit2,#tit3,#tit4,#tit5{
+            width: 100px;
+            float: left;
+        }
+        #tit1{
+            margin: 105px 0px 0px 50px;
+        }
+        #tit2{
+            margin: 105px 0px 0px -35px;
+        }
+        #tit3{
+            margin: 105px 0px 0px -15px;
+        }
+        #tit4{
+            margin: 105px 0px 0px -18px;
+        }
+        #tit5{
+            margin: 105px 0px 0px -15px;
+        }
+        a{
+            color: black;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        a:active{
+            color: crimson;
+        }
+
+        .top_menu ul{
+            list-style: none;}
+        .top_menu li{
+            float: left;}
+        .pic1{
+            width: 28px;
+            height: 26px;
+            background: url(images/icon.gif) no-repeat;}
+        .pic2{
+            width: 28px;
+            height: 26px;
+            background: url(images/icon.gif) -28px 0px;}
+        .pic3{
+            width: 28px;
+            height: 26px;
+            background: url(images/icon.gif) -84px 0px;}
+        .text{
+            padding: 0px 5px;
+            text-align: center;}
+        .btn{
+            padding: 0px 5px;
+            text-align: center;
+            width: 38px;
+            height: 26px;
+            background: url(images/icon.gif) no-repeat 0px -25px}
+        .top_menu ul li a{
+            text-decoration: none;
+            font: 12px/26px 宋体;}
+        .top_menu ul li a:link{
+            color: #333333;
+            text-decoration: none;}
+        .top_menu ul li a:visited{
+            color: #333333;
+            text-decoration: none;}
+        .top_menu ul li a:active{
+            color: #333333;
+            text-decoration: none;}
+        .top_menu ul li a:hover{
+            color: #ff7300;}
+
+    </style>
+</head>
+<body>
+<div class="all">
+    <div>
+        <div id="tit">
+            <div id="tit1"><a href="#">首页</a></div>
+            <div id="tit2"><a href="#">家用电器</a></div>
+            <div id="tit3"><a href="#">生活用品</a></div>
+            <div id="tit4"><a href="#">办公用品</a></div>
+            <div id="tit5"><a href="#">潮流服饰</a></div>
+            <div class="top_menu">
+                <ul>
+                    <li class="pic1"></li>
+                    <li class="text"><a href="#">购物车</a></li>
+                    <li class="pic2"></li>
+                    <li class="text"><a href="#">帮助中心</a></li>
+                    <li class="pic3"></li>
+                    <li class="text"><a href="#">加入收藏</a></li>
+                    <li class="pic4"></li>
+                    <li class="text"><a href="#">设为首页</a></li>
+                    <li class="btn"><a href="#">登陆</a></li>
+                    <li class="btn"><a href="#">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
