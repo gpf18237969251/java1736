@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+      <td rowspan="2"><img src="logo.jpg"></td>
+        <td><img src="buy.gif"></td>
+        <td><img src="sell.gif"></td>
+        <td><img src="mypp.gif"></td>
+        <td><img src="bbs.gif"></td>
+        <td><img src="help.gif">帮助中心</td>
+    </tr>
+    <tr>
+        <td colspan="2">欢迎来到拍拍网</td>
+
+        <td colspan="3">[登陆]&nbsp;II&nbsp;[免费注册]&nbsp;II&nbsp;[结算中心]</td>
+
+    </tr>
+</table>
+
+</body>
+</html>

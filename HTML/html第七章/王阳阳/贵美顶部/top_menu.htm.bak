@@ -1,0 +1,24 @@
+﻿<!DOCTYPE	html PUBLIC	"-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html	xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"	/>
+ <title>贵美商城</title>
+ <link rel="stylesheet"	type="text/css"	href="css/layout.css"	/>
+</head>
+<body>
+<div class="top_menu">
+  <ul>
+    <li class="pic pic1"></li>
+    <li class="text"><a href="#">购物车</a></li>
+    <li class="pic pic2"></li>
+    <li class="text"><a href="#">帮助中心</a></li>
+    <li class="pic pic3"></li>
+    <li class="text"><a href="#">加入收藏</a></li>		
+    <li class="pic pic4"></li>
+    <li class="text"><a href="#">设为首页</a></li>			
+    <li class="pic btn text"><a href="#">登录</a></li>
+    <li class="pic btn text"><a href="#">注册</a></li>																																
+  </ul>
+</div>
+ </body>
+</html>

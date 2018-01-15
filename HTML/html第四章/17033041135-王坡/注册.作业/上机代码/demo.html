@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我们自己的网页</title>
+
+</head>
+<style type="text/css">
+
+    .input_name{
+        border: 2px red dashed;
+    }
+    #id_name{
+        border: 2px green solid;
+    }
+    #pass_name{
+        border: 2px yellow solid;
+    }
+    label{
+        float: right;
+    }
+    .btn_sub{
+        background: url("images/submit.gif");
+        width: 80px;
+        height: 34px;
+    }
+</style>
+<!--类选择器
+   id选择器
+   标签选择器
+-->
+<body>
+    <form action="login.html">
+        <table cellpadding="4" align="center" >
+            <tr>
+                <td width="139">
+                    <label>名字：</label>
+                </td>
+                <td width="222">
+                    <input type="text" class="input_name"/>
+                </td>
+                <td width="295">&nbsp;
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>姓氏：</label>
+                </td>
+                <td>
+                    <input type="text" id="id_name" />
+                </td>
+                <td>&nbsp;
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>登录名：</label>
+                </td>
+                <td>
+                    <input type="text" class="input_name"/>
+                </td>
+                <td>
+                    （可包含a-z 、0-9和下划线）
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>密&nbsp;&nbsp;&nbsp;码：</label>
+                </td>
+                <td>
+                    <input type="password" id="pass_name">
+                </td>
+                <td>
+                   （至少包含6个字符）
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    再次输入密码：
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+                <td>&nbsp;
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>电子邮箱：</label>
+                </td>
+                <td>
+                    <input type="text" />
+                </td>
+                <td>
+                    (必须包含@字符)
+                </td>
+        </tr>
+            <tr>
+                <td>
+                   <label>性别：</label>
+                </td>
+                <td colspan="2">
+                    <input type="radio" name="sex" value="1">
+                    <img src="images/Male.gif" height="21" width="23"/>男
+                    <input type="radio" name="sex" value="2">
+                    <img src="images/Female.gif" height="21" width="23"/>女
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>头像：</label>
+                </td>
+                <td colspan="2">
+                    <input type="file" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>爱好：</label>
+                </td>
+                <td colspan="2">
+                    <input type="checkbox" name="aiHao" />运动&nbsp;
+                    <input type="checkbox" name="aiHao" />聊天&nbsp;
+                    <input type="checkbox" name="aiHao" />玩游戏
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>出生日期：</label>
+                </td>
+                <td colspan="2">
+                    <input type="text"  value="yyyy"/>&nbsp;年&nbsp;
+                    <select>
+                        <option>请选择月份</option>
+                        <option>一月</option>
+                        <option>二月</option>
+                        <option>三月</option>
+                        <option>四月</option>
+                        <option>五月</option>
+                        <option>六月</option>
+                        <option>七月</option>
+                        <option>八月</option>
+                        <option>九月</option>
+                        <option>十月</option>
+                        <option>十一月</option>
+                        <option>十二月</option>
+                    </select> &nbsp;年&nbsp;
+                    <input type="text"  value="dd"/>&nbsp;日&nbsp;
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" class="btn_sub" value=""/>
+                </td>
+                <td>
+                    <input type="reset" class="btn_re" value=""/>
+                </td>
+                <td>
+                    <input type="hidden" value="666"/>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>
