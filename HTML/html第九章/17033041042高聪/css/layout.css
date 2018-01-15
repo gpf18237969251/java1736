@@ -1,0 +1,81 @@
+﻿body{
+  padding:0px;
+	margin:0px;
+	font:12px Tahoma;	
+	}
+ul,ol,h1,dl,dd{list-style:none;margin:0px;padding:0px;}
+a {color:#333333;text-decoration: none;}    
+a:hover   {color:#ff7300;} 		
+a img{border:0px;}	
+#container{
+	width:980px;
+	margin:0 auto;
+	float:none;
+	}
+
+/*头部 从logo到服务热线*/
+#header { 
+	width:100%;
+	height:136px;
+	background:url(../images/h_bg.jpg) no-repeat -22px 0px;
+	}
+
+	#logo {
+	  width:280px;
+	  height:100px;
+	  float:left;
+	  background:url(../images/h_bg.jpg) no-repeat -22px 0px;
+		}
+		
+	/*右上方菜单 购物车 帮助中心 加入收藏 设为首页等，.pic1至.pic4分别为菜单前的小图标，btn为注册登录按钮，h_text为头部文本*/
+  .upright_menu {width:45%;height:28px;float:right;padding:13px 0px 0px 0px;}
+  .upright_menu ul li{float:left;font:12px/28px 宋体;}
+    	.pic{width:28px;height:28px;background:url(../images/icon.gif) no-repeat;}
+    	.pic2{background-position:-28px 0px;}
+    	.pic3{background-position:-84px 0px;}
+    	.pic4{background-position:-112px 0px;}	
+    	.h_text,.btn {padding:0px 5px;text-align:center;}
+        .btn {width:38px;background-position:0px -25px;}
+  .upright_bottom{width:62%;float:right;}      
+      .hello {padding-top:36px;color:#636362;letter-spacing:3px;} 
+  .nav{clear:both;width:100%;}
+  .nav li {
+  	width:84px;
+  	float:left;
+  	text-align:center;
+  	font-weight:bold;
+  	}
+  .nav li a{ 	
+  	padding:8px 10px;line-height:32px;
+  	color:#333;
+  	font-size:14px;
+  	}
+  .nav ul li a:hover{	
+  	background:url(../images/nav_bg.gif) no-repeat;
+  	}
+  	
+   #main{width:100%;height:643px;
+   	background:url(../images/bg.gif) no-repeat 0px 0px;
+   	} 
+    .cat,.content,.sidebar{float:left;height:100%;}
+    .cat{
+      height:603px;width:189px;padding:40px 9px 0px 15px;}
+	  .cat h1{
+	  	font:bold 14px 宋体;
+		  color:#ff7300;
+		  float:none;
+		  line-height:27px;
+	   	}	 
+	 .cat li{font:12px/24px 宋体;color:#636362;width:60px;float:left;}   
+	.content,.content_top,.content_list{width:524px;}  
+	.content{padding-right:10px;}
+    .content_top{height:190px;padding-bottom:13px;}  
+  	.content_list{height:403px;padding:37px 0px 0px 0px;text-align:center;}
+  	.content_list dl{float:left;width:174px;height:134px;}
+  	.content_list dt{height:91px;line-height:91px;}
+  	.content_list dd{height:43px;}
+  	.content_list dt img{vertical-align:middle;border:1px solid #ccc;}
+  .sidebar   {background:blue;width:233px;}
+  .sidebar,#footer{font:bold 36px 黑体;color:#fff;} 
+  #footer{width:100%;height:100px;clear:both;
+   	 background:#ccc;color:#000;}
