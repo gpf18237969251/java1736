@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>注册页</title>
+<link href="Untitled-1.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<iframe src="xiayige.html" width="980px" height="135px" frameborder="0" scrolling="no"></iframe>
+<form name="usual" action="#" method="post">
+<table width="1271" height="475" border="0">
+  	<tr>
+    	<td width="617"><h3>商城注册</h3>
+    	  <table width="524" height="373" border="0">
+    	    <tr>
+    	<td width="130" class="left">登录名：</td>
+    	<td width="384"><input type="text" name="username" size="20" class="boder" /><label>（可包含a-z、0-9和下划线)</label><br/></td>
+  	</tr>
+  	<tr>
+    	<td class="left">密码：</td>
+    	<td><input type="password" name="password" size="20" class="boder" /><label>（至少包含6个字符）</label><br/></td>
+  	</tr>
+  	<tr>
+    	<td class="left">再次输入密码：</td>
+    	<td><input type="password" name="password" size="20" class="boder" /></td>
+  	</tr>
+ 	<tr>
+    	<td class="left">电子邮箱：</td>
+    	<td><input type="text" name="pass" size="20" class="boder" /><label>（必须包含@字符）</label></td>
+    </tr>
+	<tr>
+    	<td class="left">性别：</td>
+        <td width="384">
+         <input type="radio" name="sex" value="男" checked="checked"/>
+         <img src="贵美商城资料/Female.gif" width="23" height="21" />         男
+         <input type="radio" name="sex" value="女"/>
+         <img src="贵美商城资料/Male.gif" width="22" height="21" />         女<br />
+        </td>
+    </tr>
+    <tr>
+    	<td class="left">头像：</td>
+        <td>
+        <input type="file" name="look" class="boder" />
+        </td>
+    </tr>
+    <tr>
+    	<td class="left">爱好：</td>
+        <td>
+         <input type="checkbox" name="interest" value="书"/>书
+         <input type="checkbox" name="interest" value="运动"/>运动
+         <input type="checkbox" name="interest" value="聊天"/>聊天
+         
+        </td>
+    </tr>
+    <tr>
+    	<td class="left">喜欢的城市：</td>
+        <td>
+                <select name="province">
+    <option value="请选择" selected="selected">请选择</option>
+    <option value="湖北省">湖北省</option>
+    <option value="湖省省">湖省省</option>
+    <option value="江西省">江西省</option>
+    <option value="海南省">海南省</option>
+    <option value="河北省">河北省</option>
+    <option value="辽宁省">辽宁省</option>
+    </select>
+        </td>
+    </tr>
+    <tr>
+    	<td>&nbsp; </td>
+        <td>
+        <input type="submit" name="sub" value="同意右侧条款，提交注册信息" disabled="disabled"/>
+	<input type="reset" name="ret" value="重置"/>
+        </td>
+    </tr>
+    <tr>
+    <td></td>
+    <td><input type="image" src="贵美商城资料/login.gif"/>
+    <input type="image" src="贵美商城资料/reset.gif"/></td>
+    </tr>
+  </table>
+	  </td>
+<td width="644">                    
+<table width="403" height="403" border="0">
+   		  <tr>
+    	<td width="397" height="42"><img src="贵美商城资料/read.gif" width="35" height="26" /><font size="+2">阅读贵美服务协议</font></td>
+  	</tr>
+    <tr>
+    	<td><textarea name="服务条款"  rows="20" cols="40" class="boder">欢迎阅读服务条款协议，本协议阐述之条款和条件适用于您使用Gmgw.com网站的各种工具和服务。
+  本服务协议双方为贵美与贵美网用户，本服务协议具有合同效力。 
+  贵美的权利和义务
+    1.贵美有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动的顺利。 
+    2.对用户在注册使用贵美网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，贵美应及时作出回复。 
+    3.对于在贵美网网上交易平台上的不当行为或其它任何贵美认为应当终止服务的情况，贵美有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。 
+    4.因网上交易平台的特殊性，贵美没有义务对所有用户的注册资料、所有的交易行为以及与交易有关的其他事项进行事先审查。
+        </textarea></td>    
+    </tr>
+    <tr>
+    <td width="397" height="23"><input type="submit" name="agree" value="同意"/></td>
+    </tr>
+    
+</table>
+
+</table>
+
+</form>
+</body>
+</html>
