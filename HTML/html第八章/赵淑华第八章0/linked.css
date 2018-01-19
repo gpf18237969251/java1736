@@ -1,0 +1,113 @@
+.main{
+    width: 1250px;
+    height: 900px;
+    margin: 0px auto;
+}
+li{
+    list-style: none;
+    float: left;
+}
+a:link{
+    text-decoration: none;
+}
+.a1{
+    width: 170px;
+    height: 65px;
+    margin-left: 350px;
+}
+.a2{
+    width: 550px;
+    height: 35px;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+.a3{
+    width: 450px;
+    height: 20px;
+    margin-left: 700px;
+}
+.tiao{
+    border: 3px solid #9fd0ed;
+    width: 370px;
+    height: 19px;
+    margin-top: 15px;
+    margin-left: -155px;
+    margin-right: 15px;
+}
+.tu{
+    margin-top: -5px;
+    margin-left: 225px;
+}
+.middle{
+    border: 1px solid #c5cac8;
+    width: 580px;
+    height: 450px;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+.right{
+    width: 300px;
+    height: 520px;
+    float: left;
+}
+.c1{
+    border: 1px solid #c5cac8;
+    background-color: rgba(215, 237, 233, 0.52);
+    width: 320px;
+    height: 195px;
+    margin-left: 840px;
+    margin-top: -452px;
+}
+.c2 {
+    border: 1px solid #c5cac8;
+    background-color: rgba(215, 237, 233, 0.52);
+    width: 320px;
+    height: 35px;
+    margin-left: 840px;
+    margin-top: 10px;
+}
+.c3{
+    border: 1px solid #c5cac8;
+    width: 320px;
+    height: 200px;
+    margin-left: 840px;
+    margin-top: 10px;
+}
+.table1{
+    width: 580px;
+    height: 15px;
+  font-size: 17px;
+}
+.foot1{
+    margin-left: -49px;
+    margin-top: 12px;
+}
+.foot2{
+    margin-left: 540px;
+    margin-top: -84px;
+    float: left;
+}
+.table2{
+    width: 320px;
+    height: 150px;
+    margin-top: -110px;
+}
+.table3{
+    width: 320px;
+    height: 195px;
+}
+.denglu{
+    background: url("login.gif");
+    width: 88px;
+    height: 30px;
+}
+.end{
+    width: 915px;
+    height: 30px;
+    background-color: rgba(209, 209, 242, 0.7);
+    margin-left: 250px;
+    margin-top: 12px;
+}
+.zi{
+    margin-left: 160px;
+}
