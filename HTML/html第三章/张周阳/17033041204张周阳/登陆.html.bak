@@ -1,0 +1,38 @@
+<html>
+ <head>
+ <title>登陆页面</title>
+ </head>
+ <body>
+<style>
+#vin{
+ width:400px;
+ height:300px;
+ border:3px solid black;	
+}
+.hym{
+	 float:right;
+}
+.mima{
+	 float:right;
+	}
+</style>
+<body>
+<div id="vin">
+<br><br>&nbsp;&nbsp;会员名:
+<input type="text" name="username">
+
+<br>&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;码:
+<input type="text" name="username">
+
+<div class="hym"></div>
+<div class="mima"></div>
+<br><br>
+ &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp;<input type="reset" value="重填">
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="submit" value="提交">
+
+</div>
+
+</div>
+
+</body>
+</html>

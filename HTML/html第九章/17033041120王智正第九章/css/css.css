@@ -1,0 +1,62 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,ul,ol,h1,dl,dd,dt{list-style:none;margin:0px;padding:0px;}
+/*最大的div*/
+#guimei{width:980px; height:1004px; margin:0px auto;}
+
+	  /*上超链接*/
+	  a{color:#333333;text-decoration: none;}    
+	  a:hover{color:#ff7300;} 		
+	  a img{border:0px;}	
+
+/*头部*/
+#zs { width:100%;height:136px;background:url(../images/h_bg.jpg) no-repeat -22px 0px;}
+#logo {width:280px;height:100px;float:left;background:url(../images/h_bg.jpg) no-repeat -22px 0px;}
+		
+   	/*右上*/
+      .shangyou {width:441px;height:28px;float:left;padding:10px 0px 0px 250px; margin:0px;}
+      .shangyou ul li{float:left;font:12px/28px 宋体;}
+      .pic{width:28px;height:28px;background:url(../images/icon.gif) no-repeat;}
+      .pic2{background-position:-38px 0px;}
+      .pic3{background-position:-84px 0px;}
+   	  .pic4{background-position:-125px 0px;}
+	  .tex,.btn {padding:0px 5px;text-align:center;}
+ 	  .btn {width:38px;background-position:0px -25px;}
+	/*上中*/
+  	  .shangzhong{width:62%;float:right;}      
+      .c{padding-top:36px;color:#636362;letter-spacing:3px;} 
+ 	/* 上脚*/
+  	  .nav{clear:both;width:100%;}
+ 	  .nav li {width:84px;float:left;text-align:center;font-weight:bold;}
+	  .nav li a{padding:8px 10px;line-height:32px;color:#333;font-size:14px;}
+	  .nav ul li a:hover{background:url(../images/nav_bg.gif) no-repeat;}
+	  
+/*中间	 */ 
+#zhongjian{width:100%; height:650px;  background:url(../images/bg.gif) no-repeat;}
+	  
+	  /*中左*/
+ 	  	#zhongzuo{height:650px; width:21%;background:url(images/bg.gif) no-repeat; float:left;}
+			.menu-li{font-size:12px;list-style:none;line-height:25px;width:50px;}
+			.menu-class{line-height:35px; clear:both; margin-top:33px; font-size:18px; color:#F60;}
+			.menu-li{color:#636362; float:left;width:50px; width:50px; margin:2px; }  	
+			
+			
+					
+		/*中中*/
+		#zhong{height:650px; width:54%;float:left;}
+			#x{ height:30%; width:100%; background:url(../images/ad-01.jpg) no-repeat;}
+			#c{ height:69%; width:100%; text-align:center;}
+			#c dl{ float:left; width:160px;height:100px; padding-top:40px; padding-left:15px;}
+			#c dt{ width:120px; height:80px; border:0.1px #999999 solid;}
+			#c dd{ widows:120px; height:80px; text-align:center; font:10px/25px; padding:10px;}
+		/*中右*/
+	   	#zhongyou{height:650px; width:24%; float:right;}
+			#right{width:245px;height:270px;padding-top:32px; float:left; padding:178px 0px 0px 0px;}
+		     #right dl dt{clear:left;float:left;margin:0px;width:90px;padding:2px 0px;text-align:center;}
+			 #right dl dt img{border:1px solid #9ea0a2;width:60px;height:47px;vertical-align:middle;}
+			 #right dl dd a{font:12px/67px 宋体;color:#333;text-decoration: none;}
+			 #right dl dd a:hover{color:#ff7300;} 
+ 
+/* 脚*/
+ #zx{width:100%;height:218px;text-align:center;line-height:20px;clear:both;float:left; }
+
